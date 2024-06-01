@@ -1,1 +1,169 @@
 [2024-05-29 20:39:38,511 : INFO : main : Welcome to our custom logging]
+[2024-05-30 20:36:08,852 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-05-30 20:36:08,873 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-05-30 20:36:48,678 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-05-30 20:36:48,681 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-05-30 20:36:48,683 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-05-30 20:36:48,684 : INFO : common : created directory at : artifacts]
+[2024-05-30 20:37:45,102 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-05-30 20:37:45,106 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-05-30 20:37:45,107 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-05-30 20:37:45,107 : INFO : common : created directory at : artifacts]
+[2024-05-30 20:39:32,206 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-05-30 20:39:32,208 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-05-30 20:39:32,209 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-05-30 20:39:32,210 : INFO : common : created directory at : artifacts]
+[2024-05-30 20:39:32,211 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-05-30 20:39:32,984 : INFO : 934613612 : artifacts/data_ingestion/data.zip downlaod! with following info : 
+Server: GitHub.com
+Date: Thu, 30 May 2024 15:09:32 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+ETag: W/"8c655838efa3b7f2001622f13ee6f96d"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com api.githubcopilot.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+Set-Cookie: _gh_sess=k2VJrWnJ8SMZCsLuJSe%2BRWFK0Fdt9b%2Bi5ir89aVsQCRbZ14xGZKl6fALhXT%2F%2FakGBNyOlaP0srxs6SyRszobcOpCqEEy3QHAxcr2xiTqSTN%2F3K44FuHZopHdxjmRyN7ByvS%2FRGjbXMf1GZi%2FvfVK3zMSCAAGiBvgl%2BBHCl5YHv03Bjvpqs1KyWdQ0F1lpiaBHomybIkK89a0RwSZ%2BNdSGSWfrAqCyUJtBfARruYIFgcCXUsUi636I%2BNH2K0fi0Z1TaUTvAN%2BqHxtnZ4jqxfxgQ%3D%3D--3rKTTunVZhO3wwFe--A8RApXr5yoOapkbZNNhFLA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.196013913.1717081772; Path=/; Domain=github.com; Expires=Fri, 30 May 2025 15:09:32 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Fri, 30 May 2025 15:09:32 GMT; HttpOnly; Secure; SameSite=Lax
+Accept-Ranges: bytes
+Transfer-Encoding: chunked
+X-GitHub-Request-Id: 4AEA:3783C1:148CD:168F6:665896AC
+connection: close
+
+]
+[2024-05-30 20:40:00,025 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-05-30 20:40:00,027 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-05-30 20:40:00,029 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-05-30 20:40:00,030 : INFO : common : created directory at : artifacts]
+[2024-05-30 20:40:00,030 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-05-30 20:40:00,031 : INFO : 4053050709 : File is already exist of size : ~ 144 KB]
+[2024-05-30 20:42:47,898 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-05-30 20:42:47,900 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-05-30 20:42:47,903 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-05-30 20:42:47,903 : INFO : common : created directory at : artifacts]
+[2024-05-30 20:42:47,904 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-05-30 20:42:47,905 : INFO : 1924561752 : File is already exist of size : ~ 144 KB]
+[2024-05-30 20:45:12,496 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-05-30 20:45:12,498 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-05-30 20:45:12,498 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-05-30 20:45:12,499 : INFO : common : created directory at : artifacts]
+[2024-05-30 20:45:12,499 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-05-30 20:45:13,395 : INFO : 1924561752 : artifacts/data_ingestion/data.zip downlaod! with following info : 
+Server: GitHub.com
+Date: Thu, 30 May 2024 15:15:13 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+ETag: W/"5fecd529e27ca8d0262f898577e4663e"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com api.githubcopilot.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+Set-Cookie: _gh_sess=J0JUuh65i64jI7V3mHIVlzrbRD7eqm2bfrOrJejgXmdIJZ9JWoYIyWhxcjJgHN1qLy25yLltFbJyZDAGWuUyTfR%2FpUyl7%2B66nBL%2Fr8mEbQ2%2FPAn2i%2BD5GYh8UisV%2BPBg8CCU0wvuSvjVtzcAxCp25mMdu6DerdUoDWY5%2BjD1%2Fx8Z8SApHlI2PrOVNTCORddHJyiO0xpA%2BtWALfFemam3cI4ql1pjMkVuz8KlUSjG%2FaL1z9dOuVnyt6asGDjF8eLkv6MXRZCnbok8M4nWD3hMEg%3D%3D--p1Uii1AMGEUStoTJ--MvNsYnl%2B7RJWIE%2FqcyTn3A%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.1543858830.1717082112; Path=/; Domain=github.com; Expires=Fri, 30 May 2025 15:15:12 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Fri, 30 May 2025 15:15:12 GMT; HttpOnly; Secure; SameSite=Lax
+Accept-Ranges: bytes
+Transfer-Encoding: chunked
+X-GitHub-Request-Id: 4CA8:38320E:2175D:24BDC:66589800
+connection: close
+
+]
+[2024-05-30 20:47:18,891 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-05-30 20:47:18,893 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-05-30 20:47:18,894 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-05-30 20:47:18,894 : INFO : common : created directory at : artifacts]
+[2024-05-30 20:47:18,895 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-05-30 20:47:18,897 : INFO : 1924561752 : File is already exist of size : ~ 257 KB]
+[2024-05-30 20:47:37,722 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-05-30 20:47:37,724 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-05-30 20:47:37,725 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-05-30 20:47:37,726 : INFO : common : created directory at : artifacts]
+[2024-05-30 20:47:37,728 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-05-30 20:47:38,670 : INFO : 1924561752 : artifacts/data_ingestion/data.zip downlaod! with following info : 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 21DE:37E32C:3674:4496:66589890
+Accept-Ranges: bytes
+Date: Thu, 30 May 2024 15:17:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4747-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1717082259.580288,VS0,VE271
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b666a8e8f97ede3a01002bd8f1a8a41a68ecda6f
+Expires: Thu, 30 May 2024 15:22:38 GMT
+Source-Age: 0
+
+]
+[2024-05-30 21:16:01,584 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-05-30 21:16:01,585 : ERROR : main : name 'ConfigurationManager' is not defined]
+Traceback (most recent call last):
+  File "/Users/sujalkumarsahni/Documents/python basics/mlops/e2e/mlflow-project/main.py", line 8, in <module>
+    data_ingestion.main()
+  File "/Users/sujalkumarsahni/Documents/python basics/mlops/e2e/mlflow-project/src/mlproject/pipeline/stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConfigurationManager' is not defined
+[2024-06-01 14:45:46,022 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-06-01 14:45:46,022 : ERROR : main : name 'ConfigurationManager' is not defined]
+Traceback (most recent call last):
+  File "/Users/sujalkumarsahni/Documents/python basics/mlops/e2e/mlflow-project/main.py", line 8, in <module>
+    data_ingestion.main()
+  File "/Users/sujalkumarsahni/Documents/python basics/mlops/e2e/mlflow-project/src/mlproject/pipeline/stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConfigurationManager' is not defined
+[2024-06-01 14:48:40,282 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-06-01 14:48:40,282 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-06-01 14:48:40,283 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-06-01 14:48:40,283 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-06-01 14:48:40,283 : INFO : common : created directory at : artifacts]
+[2024-06-01 14:48:40,283 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-06-01 14:48:41,565 : INFO : data_ingestion : artifacts/data_ingestion/data.zip downlaod! with following info : 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 18E8:3463B8:1768CC:1BB60C:665AE770
+Accept-Ranges: bytes
+Date: Sat, 01 Jun 2024 09:18:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4726-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1717233521.095165,VS0,VE550
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8e7e93b0ac1c05c706708d4c76fbac5d7e8525e9
+Expires: Sat, 01 Jun 2024 09:23:41 GMT
+Source-Age: 0
+
+]
+[2024-06-01 14:48:41,570 : INFO : main : >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
