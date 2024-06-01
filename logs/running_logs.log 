@@ -167,3 +167,134 @@ Source-Age: 0
 [2024-06-01 14:48:41,570 : INFO : main : >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x==========x]
+[2024-06-01 16:37:29,161 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-06-01 16:37:29,166 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-06-01 16:37:29,169 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-06-01 16:37:29,170 : INFO : common : created directory at : artifacts]
+[2024-06-01 16:37:29,170 : INFO : common : created directory at : artifacts/data_validation]
+[2024-06-01 16:53:38,432 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-06-01 16:53:38,433 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-06-01 16:53:38,433 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-06-01 16:53:38,434 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-06-01 16:53:38,434 : INFO : common : created directory at : artifacts]
+[2024-06-01 16:53:38,434 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-06-01 16:53:38,434 : INFO : data_ingestion : File is already exist of size : ~ 23 KB]
+[2024-06-01 16:53:38,436 : INFO : main : >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-06-01 16:53:38,436 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-06-01 16:53:38,436 : ERROR : main : name 'DataValidationPipeline' is not defined]
+Traceback (most recent call last):
+  File "/Users/sujalkumarsahni/Documents/python basics/mlops/e2e/mlflow-project/main.py", line 13, in <module>
+    data_ingestion = DataValidationPipeline()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DataValidationPipeline' is not defined
+[2024-06-01 16:54:24,470 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-06-01 16:54:24,471 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-06-01 16:54:24,471 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-06-01 16:54:24,472 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-06-01 16:54:24,472 : INFO : common : created directory at : artifacts]
+[2024-06-01 16:54:24,472 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-06-01 16:54:24,515 : ERROR : main : <urlopen error [Errno 8] nodename nor servname provided, or not known>]
+Traceback (most recent call last):
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/http/client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/http/client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/http/client.py", line 1451, in connect
+    super().connect()
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/http/client.py", line 945, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/socket.py", line 827, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sujalkumarsahni/Documents/python basics/mlops/e2e/mlflow-project/main.py", line 9, in <module>
+    data_ingestion.main()
+  File "/Users/sujalkumarsahni/Documents/python basics/mlops/e2e/mlflow-project/src/mlproject/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/Users/sujalkumarsahni/Documents/python basics/mlops/e2e/mlflow-project/src/mlproject/components/data_ingestion.py", line 15, in download_file
+    filename , headers = request.urlretrieve(
+                         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/urllib/request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/urllib/request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sujalkumarsahni/anaconda3/lib/python3.11/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+[2024-06-01 20:08:52,753 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-06-01 20:08:52,754 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-06-01 20:08:52,754 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-06-01 20:08:52,755 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-06-01 20:08:52,755 : INFO : common : created directory at : artifacts]
+[2024-06-01 20:08:52,755 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-06-01 20:08:53,890 : INFO : data_ingestion : artifacts/data_ingestion/data.zip downlaod! with following info : 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 974C:2DF1FB:3309B9:3BADB1:665B327D
+Accept-Ranges: bytes
+Date: Sat, 01 Jun 2024 14:38:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4732-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1717252734.589003,VS0,VE417
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8d0c379102b9383557fab24825babe58cb6680b0
+Expires: Sat, 01 Jun 2024 14:43:54 GMT
+Source-Age: 0
+
+]
+[2024-06-01 20:08:53,894 : INFO : main : >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-06-01 20:08:53,894 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-06-01 20:08:53,895 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-06-01 20:08:53,896 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-06-01 20:08:53,898 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-06-01 20:08:53,898 : INFO : common : created directory at : artifacts]
+[2024-06-01 20:08:53,899 : INFO : common : created directory at : artifacts/data_validation]
+[2024-06-01 20:08:53,910 : INFO : main : >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
