@@ -1,0 +1,34 @@
+schema: '2.0'
+stages:
+  data ingestion:
+    cmd: python src/mlproject/pipeline/stage_01_data_ingestion.py
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: 7bfcb4338be30f63be92899df4e7c4a7
+      size: 984
+    outs:
+    - path: artifacts/data_ingestion/data.zip
+      hash: md5
+      md5: 98e14459f9fb131cd9f83ecad4328d5d
+      size: 23329
+    - path: artifacts/data_ingestion/winequality-red.csv
+      hash: md5
+      md5: 6a883fd98624e18c0b7ce251f4fab4fb
+      size: 100951
+  Data Validation:
+    cmd: python src/mlproject/pipeline/stage_02_data_validation.py
+    deps:
+    - path: artifacts/data_ingestion/winequality-red.csv
+      hash: md5
+      md5: 6a883fd98624e18c0b7ce251f4fab4fb
+      size: 100951
+    - path: schema.yaml
+      hash: md5
+      md5: 2a24ac4358ddbb9ee64715625dc82384
+      size: 320
+    outs:
+    - path: artifacts/data_validation/status.txt
+      hash: md5
+      md5: 86e6a2f694c57a675b3e2da6b95ff9ba
+      size: 23
