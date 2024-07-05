@@ -763,3 +763,12 @@ x==========x]
 [2024-07-05 23:11:13,520 : INFO : stage_03_data_transformation : >>>>>> stage Data Transformation Stage completed <<<<<<
 
 x==========x]
+[2024-07-05 23:24:31,005 : INFO : stage_04_model_trainer : >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-07-05 23:24:31,006 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-07-05 23:24:31,006 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-07-05 23:24:31,007 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-07-05 23:24:31,007 : INFO : common : created directory at : artifacts]
+[2024-07-05 23:24:31,007 : INFO : common : created directory at : artifacts/model_trainer]
+[2024-07-05 23:24:31,032 : INFO : stage_04_model_trainer : >>>>>> stage Model Trainer Stage completed <<<<<<
+
+x==========x]
