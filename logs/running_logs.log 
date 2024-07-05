@@ -624,3 +624,85 @@ x==========x]
 [2024-06-11 20:24:59,217 : INFO : main : >>>>>> stage Model Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-07-05 22:10:37,238 : INFO : stage_01_data_ingestion : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-05 22:10:37,239 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-07-05 22:10:37,239 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-07-05 22:10:37,240 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-07-05 22:10:37,240 : INFO : common : created directory at : artifacts]
+[2024-07-05 22:10:37,240 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-07-05 22:10:37,240 : INFO : data_ingestion : File is already exist of size : ~ 23 KB]
+[2024-07-05 22:10:37,242 : INFO : stage_01_data_ingestion : >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-05 22:19:25,403 : INFO : stage_01_data_ingestion : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-05 22:19:25,404 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-07-05 22:19:25,405 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-07-05 22:19:25,406 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-07-05 22:19:25,406 : INFO : common : created directory at : artifacts]
+[2024-07-05 22:19:25,406 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-07-05 22:19:28,663 : INFO : data_ingestion : artifacts/data_ingestion/data.zip downlaod! with following info : 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F955:1917CD:B2E1:DCDA:6688241A
+Accept-Ranges: bytes
+Date: Fri, 05 Jul 2024 16:49:32 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg1225-QPG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1720198172.627960,VS0,VE391
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 784d83b4eb25e9ee0eee42eb8d9f0ab7fad2d295
+Expires: Fri, 05 Jul 2024 16:54:32 GMT
+Source-Age: 0
+
+]
+[2024-07-05 22:19:28,666 : INFO : stage_01_data_ingestion : >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-05 22:24:47,626 : INFO : stage_01_data_ingestion : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-05 22:24:47,627 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-07-05 22:24:47,627 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-07-05 22:24:47,628 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-07-05 22:24:47,628 : INFO : common : created directory at : artifacts]
+[2024-07-05 22:24:47,628 : INFO : common : created directory at : artifacts/data_ingestion]
+[2024-07-05 22:24:50,299 : INFO : data_ingestion : artifacts/data_ingestion/data.zip downlaod! with following info : 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F955:1917CD:B2E1:DCDA:6688241A
+Accept-Ranges: bytes
+Date: Fri, 05 Jul 2024 16:54:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg1261-QPG
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1720198494.545059,VS0,VE294
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: aa3001e7ee4598c0ea558a195651f89f7394ed10
+Expires: Fri, 05 Jul 2024 16:59:53 GMT
+Source-Age: 0
+
+]
+[2024-07-05 22:24:50,301 : INFO : stage_01_data_ingestion : >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]

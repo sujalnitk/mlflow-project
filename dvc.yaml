@@ -1,0 +1,20 @@
+stages:
+  data ingestion:
+    cmd: python src/mlproject/pipeline/stage_01_data_ingestion.py
+
+    deps: 
+      -  config/config.yaml
+    
+    outs: 
+      - artifacts/data_ingestion/data.zip
+      - artifacts/data_ingestion/winequality-red.csv
+
+  Data Validation:
+    cmd: python src/mlproject/pipeline/stage_02_data_validation.py
+
+    deps:
+      - artifacts/data_ingestion/winequality-red.csv
+      - schema.yaml
+
+    outs:
+      - artifacts/data_validation/status.txt
