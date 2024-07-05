@@ -751,3 +751,15 @@ x==========x]
 [2024-07-05 22:30:00,844 : INFO : stage_02_data_validation : >>>>>> stage Data Validation Stage completed <<<<<<
 
 x==========x]
+[2024-07-05 23:11:13,503 : INFO : stage_03_data_transformation : >>>>>> stage Data Transformation Stage started <<<<<<]
+[2024-07-05 23:11:13,504 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-07-05 23:11:13,505 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-07-05 23:11:13,505 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-07-05 23:11:13,505 : INFO : common : created directory at : artifacts]
+[2024-07-05 23:11:13,505 : INFO : common : created directory at : artifacts/data_transformation]
+[2024-07-05 23:11:13,520 : INFO : data_transformation : Splited data into training and test sets]
+[2024-07-05 23:11:13,520 : INFO : data_transformation : (1199, 12)]
+[2024-07-05 23:11:13,520 : INFO : data_transformation : (400, 12)]
+[2024-07-05 23:11:13,520 : INFO : stage_03_data_transformation : >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]

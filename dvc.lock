@@ -32,3 +32,23 @@ stages:
       hash: md5
       md5: 86e6a2f694c57a675b3e2da6b95ff9ba
       size: 23
+  Data Transformation:
+    cmd: python src/mlproject/pipeline/stage_03_data_transformation.py
+    deps:
+    - path: artifacts/data_ingestion/winequality-red.csv
+      hash: md5
+      md5: 6a883fd98624e18c0b7ce251f4fab4fb
+      size: 100951
+    - path: config/config.yaml
+      hash: md5
+      md5: 7bfcb4338be30f63be92899df4e7c4a7
+      size: 984
+    outs:
+    - path: artifacts/data_transformation/test.csv
+      hash: md5
+      md5: bc30f73880d79b20124f412477534eb7
+      size: 23402
+    - path: artifacts/data_transformation/train.csv
+      hash: md5
+      md5: 07746310753cc961f2fdc9075d319b27
+      size: 70229

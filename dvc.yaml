@@ -18,3 +18,13 @@ stages:
 
     outs:
       - artifacts/data_validation/status.txt
+  Data Transformation:
+    cmd: python src/mlproject/pipeline/stage_03_data_transformation.py
+
+    deps:
+      - artifacts/data_ingestion/winequality-red.csv
+      - config/config.yaml
+
+    outs:
+      - artifacts/data_transformation/train.csv
+      - artifacts/data_transformation/test.csv
