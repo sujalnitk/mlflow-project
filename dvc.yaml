@@ -34,10 +34,21 @@ stages:
 
     deps:
       - artifacts/data_transformation/train.csv
-      - artifacts/data_transformation/test.csv
       - config/config.yaml
-      - params.yaml
       - schema.yaml
+      - params.yaml
+      
     
     outs:
       - artifacts/model_trainer/model.joblib
+
+  Model Evaluation:
+    cmd: python src/mlproject/pipeline/stage_05_model_evaluation.py
+
+    deps:
+      - artifacts/model_trainer/model.joblib
+      - schema.yaml
+      - config/config.yaml
+      
+    outs:
+      - artifacts/model_evaluation/metrics.json
