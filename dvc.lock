@@ -65,8 +65,8 @@ stages:
       size: 927
     - path: params.yaml
       hash: md5
-      md5: f1b9e4e5b62f8b019c2c7b92d0a3107f
-      size: 40
+      md5: d771183e3a1d2619a9620c20c8795d40
+      size: 42
     - path: schema.yaml
       hash: md5
       md5: 2a24ac4358ddbb9ee64715625dc82384
@@ -74,14 +74,14 @@ stages:
     outs:
     - path: artifacts/model_trainer/model.joblib
       hash: md5
-      md5: e65c38bd5f150cf5ae4bcefe1026005e
+      md5: e34f96f84074d8ba496c0657a2d5cfea
       size: 1279
   Model Evaluation:
     cmd: python src/mlproject/pipeline/stage_05_model_evaluation.py
     deps:
     - path: artifacts/model_trainer/model.joblib
       hash: md5
-      md5: e65c38bd5f150cf5ae4bcefe1026005e
+      md5: e34f96f84074d8ba496c0657a2d5cfea
       size: 1279
     - path: config/config.yaml
       hash: md5
@@ -94,5 +94,5 @@ stages:
     outs:
     - path: artifacts/model_evaluation/metrics.json
       hash: md5
-      md5: fad8b8e58677cedde0d56ec1029ccb10
-      size: 95
+      md5: cd13b6e603d44db066b2a512e31caa8e
+      size: 93

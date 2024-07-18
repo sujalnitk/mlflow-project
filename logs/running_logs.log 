@@ -8628,3 +8628,92 @@ x==========x]
 [2024-07-06 00:43:18,541 : INFO : stage_05_model_evaluation : >>>>>> stage Model Trainer Stage completed <<<<<<
 
 x==========x]
+[2024-07-06 01:35:32,569 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.175.109:8080]
+[2024-07-06 01:35:32,570 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-07-06 01:36:19,816 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.175.109:8000]
+[2024-07-06 01:36:19,816 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-07-06 01:36:22,954 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:36:22] "GET / HTTP/1.1" 200 -]
+[2024-07-06 01:36:23,011 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:36:23] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2024-07-06 01:36:23,017 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:36:23] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2024-07-06 01:36:23,018 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:36:23] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2024-07-06 01:36:23,027 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:36:23] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2024-07-06 01:36:33,102 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:36:33] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-07-06 01:36:33,104 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:36:33] "GET /static/assets/img/form-v9.jpg HTTP/1.1" 200 -]
+[2024-07-06 01:36:33,175 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:36:33] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-07-06 01:36:34,458 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:36:34] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2024-07-06 01:37:32,538 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:37:32] "POST /predict HTTP/1.1" 200 -]
+[2024-07-06 01:37:32,603 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:37:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-07-06 01:37:32,604 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:37:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2024-07-06 01:37:32,605 : INFO : _internal : 127.0.0.1 - - [06/Jul/2024 01:37:32] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
+[2024-07-06 15:10:29,958 : INFO : stage_04_model_trainer : >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-07-06 15:10:29,959 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-07-06 15:10:29,960 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-07-06 15:10:29,960 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-07-06 15:10:29,961 : INFO : common : created directory at : artifacts]
+[2024-07-06 15:10:29,961 : INFO : common : created directory at : artifacts/model_trainer]
+[2024-07-06 15:10:29,972 : INFO : stage_04_model_trainer : >>>>>> stage Model Trainer Stage completed <<<<<<
+
+x==========x]
+[2024-07-06 15:10:33,243 : INFO : helpers : Accessing as sksujaliitg]
+[2024-07-06 15:10:34,291 : INFO : helpers : Initialized MLflow to track repo "sksujaliitg/mlflow-project"]
+[2024-07-06 15:10:34,292 : INFO : helpers : Repository sksujaliitg/mlflow-project initialized!]
+[2024-07-06 15:10:34,293 : INFO : stage_05_model_evaluation : >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-07-06 15:10:34,296 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-07-06 15:10:34,297 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-07-06 15:10:34,299 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-07-06 15:10:34,299 : INFO : common : created directory at : artifacts]
+[2024-07-06 15:10:34,299 : INFO : common : created directory at : artifacts/model_evaluation]
+[2024-07-06 15:10:35,148 : INFO : common : json file saved at : artifacts/model_evaluation/metrics.json]
+[2024-07-06 15:10:47,010 : INFO : stage_05_model_evaluation : >>>>>> stage Model Trainer Stage completed <<<<<<
+
+x==========x]
+[2024-07-06 15:20:24,405 : INFO : stage_04_model_trainer : >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-07-06 15:20:24,406 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-07-06 15:20:24,407 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-07-06 15:20:24,407 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-07-06 15:20:24,407 : INFO : common : created directory at : artifacts]
+[2024-07-06 15:20:24,407 : INFO : common : created directory at : artifacts/model_trainer]
+[2024-07-06 15:20:24,416 : INFO : stage_04_model_trainer : >>>>>> stage Model Trainer Stage completed <<<<<<
+
+x==========x]
+[2024-07-06 15:20:27,141 : INFO : helpers : Accessing as sksujaliitg]
+[2024-07-06 15:20:28,105 : INFO : helpers : Initialized MLflow to track repo "sksujaliitg/mlflow-project"]
+[2024-07-06 15:20:28,106 : INFO : helpers : Repository sksujaliitg/mlflow-project initialized!]
+[2024-07-06 15:20:28,107 : INFO : stage_05_model_evaluation : >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-07-06 15:20:28,111 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-07-06 15:20:28,112 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-07-06 15:20:28,114 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-07-06 15:20:28,115 : INFO : common : created directory at : artifacts]
+[2024-07-06 15:20:28,115 : INFO : common : created directory at : artifacts/model_evaluation]
+[2024-07-06 15:20:29,049 : INFO : common : json file saved at : artifacts/model_evaluation/metrics.json]
+[2024-07-06 15:20:40,201 : INFO : stage_05_model_evaluation : >>>>>> stage Model Trainer Stage completed <<<<<<
+
+x==========x]
+[2024-07-08 19:42:34,206 : INFO : stage_04_model_trainer : >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-07-08 19:42:34,207 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-07-08 19:42:34,207 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-07-08 19:42:34,208 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-07-08 19:42:34,208 : INFO : common : created directory at : artifacts]
+[2024-07-08 19:42:34,208 : INFO : common : created directory at : artifacts/model_trainer]
+[2024-07-08 19:42:34,220 : INFO : stage_04_model_trainer : >>>>>> stage Model Trainer Stage completed <<<<<<
+
+x==========x]
+[2024-07-08 19:42:37,396 : INFO : helpers : Accessing as sksujaliitg]
+[2024-07-08 19:42:38,903 : INFO : helpers : Initialized MLflow to track repo "sksujaliitg/mlflow-project"]
+[2024-07-08 19:42:38,904 : INFO : helpers : Repository sksujaliitg/mlflow-project initialized!]
+[2024-07-08 19:42:38,905 : INFO : stage_05_model_evaluation : >>>>>> stage Model Trainer Stage started <<<<<<]
+[2024-07-08 19:42:38,908 : INFO : common : yaml file : config/config.yaml loaded successfully]
+[2024-07-08 19:42:38,909 : INFO : common : yaml file : params.yaml loaded successfully]
+[2024-07-08 19:42:38,911 : INFO : common : yaml file : schema.yaml loaded successfully]
+[2024-07-08 19:42:38,911 : INFO : common : created directory at : artifacts]
+[2024-07-08 19:42:38,911 : INFO : common : created directory at : artifacts/model_evaluation]
+[2024-07-08 19:42:40,625 : INFO : common : json file saved at : artifacts/model_evaluation/metrics.json]
+[2024-07-08 19:42:56,100 : INFO : stage_05_model_evaluation : >>>>>> stage Model Trainer Stage completed <<<<<<
+
+x==========x]
